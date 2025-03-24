@@ -5,8 +5,8 @@ import { decode } from "base64-arraybuffer";
 async function UploadImageOnS3(file, succes, error) {
   try {
     const s3bucket = new S3({
-      accessKeyId: "AKIAUPLSLQUZIQZ4MMOE",
-      secretAccessKey: "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",
+      accessKeyId: "",
+      secretAccessKey: "",
       Bucket: "tek-staging-kinekt-backend/images",
       signatureVersion: "v4",
     });
