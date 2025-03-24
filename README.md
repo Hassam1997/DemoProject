@@ -11,11 +11,8 @@ First, you will need to run **Metro**, the JavaScript build tool for React Nativ
 To start the Metro dev server, run the following command from the root of your React Native project:
 
 ```sh
-# Using npm
-npm start
-
-# OR using Yarn
-yarn start
+# Using npx
+npx react-native start
 ```
 
 ## Step 2: Build and run your app
@@ -25,11 +22,8 @@ With Metro running, open a new terminal window/pane from the root of your React 
 ### Android
 
 ```sh
-# Using npm
-npm run android
-
-# OR using Yarn
-yarn android
+# Using npx
+npx react-native run-android
 ```
 
 ### iOS
@@ -50,12 +44,13 @@ bundle exec pod install
 
 For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
 
-```sh
-# Using npm
-npm run ios
+If you encounter error after intalling the pod then check the below image to remove "PrivacyInfo xcprivacy in DemoProject"
 
-# OR using Yarn
-yarn ios
+![XCode Error Image](https://drive.google.com/file/d/1v8-88_D3kz6LL9AhkVbzJtJj-EBCBJIH/view?usp=sharing)
+
+```sh
+# Using npx
+npn react-native run-ios
 ```
 
 If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
@@ -79,8 +74,9 @@ You've successfully run and modified your React Native App. :partying_face:
 
 ### Now what?
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
+- I have add my boiler plate written in javascript plus I have extra files just to show case how I structered my App.
+- I use ScrollViewApi which is a custom component interact with redux to get the data and give us control to refresh and call the api on the screen.
+- I use FlatListApi component which is similar to ScrollViewApi but this is used for listting it handle all the responses coming from the api response and render optimized list.
 
 # Troubleshooting
 
