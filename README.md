@@ -46,7 +46,8 @@ For more information, please visit [CocoaPods Getting Started guide](https://gui
 
 If you encounter error after intalling the pod then check the below image to remove "PrivacyInfo xcprivacy in DemoProject"
 
-![XCode Error Image](https://drive.google.com/file/d/1v8-88_D3kz6LL9AhkVbzJtJj-EBCBJIH/view?usp=sharing)
+**📸 XCode Error Screenshot**  
+[Click here to view on Google Drive](https://drive.google.com/file/d/1v8-88_D3kz6LL9AhkVbzJtJj-EBCBJIH/view?usp=sharing)
 
 ```sh
 # Using npx
